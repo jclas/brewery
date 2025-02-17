@@ -27,7 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 
-##JCLAS notes
+## JCLAS notes
 To deploy to github pages (jclas.github.io) 
 - create a gh-pages branch on github
 - use the ng deploy in the terminal command line (angular-cli) on your local master branch clone in VS Code
