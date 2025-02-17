@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+##JCLAS notes
+To deploy to github pages (jclas.github.io) 
+- create a gh-pages branch on github
+- use the ng deploy in the terminal command line (angular-cli) on your local master branch clone in VS Code
+- answer the deploy questions as they come up.
+- notice everything is "compiled" on the new branch on github
+- You will notice when you browse the deployment url eveything is 404 from the index.html. Tweak the index.html's base href uri from "/" to "/brewery/" if the deployment is to "jclas.github.io/brewery"
+- I might have forgotten a thing or 2 to put here.
+  
