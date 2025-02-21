@@ -1,6 +1,5 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-//import { catchError, Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -23,7 +22,7 @@ export class BreweryService {
   }
    
   //not tested yet
-  getBreweries(page?:number, perPage?:number) {
+  async getBreweries(page?:number, perPage?:number) {
 
     if (!page) {
       page = 1;
