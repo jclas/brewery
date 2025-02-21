@@ -35,4 +35,3 @@ To deploy to github pages (jclas.github.io)
 - notice everything is "compiled" on the new branch on github
 - You will notice when you browse the deployment url eveything is 404 from the index.html. Tweak the index.html's base href uri from "/" to "/brewery/" if the deployment is to "jclas.github.io/brewery"
 
-  
